@@ -26,3 +26,27 @@ console.log(`Result is : ${num1}`);
 num1*=5;
 console.log(`Result is : ${num1}`);
 
+console.log('-------- comparison operators-------')
+var num1= 20;
+var num2= "20";
+var result = num1==num2;
+console.log(`Result is : ${result}`);
+console.log(`== comparison ${47 == '47'}`);
+console.log(`== comparison ${47 == 50}`);
+
+var result = num1===num2;
+console.log(`Reuslt is : ${result}`);
+console.log(`=== comparison ${'47' === "47"}`);
+console.log(`=== comparison ${47 === "50"}`);
+
+var num3=30;
+var num4=29;
+var result = num3 < num4;
+console.log(`using < operator result is : ${result}`);
+
+var result = num3 > num4;
+console.log(`using < operator result is : ${result}`);
+
+var num5 = 30;
+var result = num3 <=  num5;
+console.log(`using < operator result is : ${result}`);
