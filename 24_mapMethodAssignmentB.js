@@ -15,6 +15,7 @@ const emp_monali=new Employee(77,"Monika","IT",40000,"Wipro");
 const emp_viny=new Employee(88,"Vinayak","IT",75000,"TCS");
 const emp_mahi=new Employee(99,"Mahesh","HR",85000,"Infy");
 const array=[emp_Anil,emp_radha,emp_rishi,emp_sonali,emp_monali,emp_viny,emp_mahi];
+console.log(`-----employee name-------------`);
 const ram=array.map((ele)=>{
     return  ele.emp_name;
 })
